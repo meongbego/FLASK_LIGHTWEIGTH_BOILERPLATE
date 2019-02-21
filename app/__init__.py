@@ -1,6 +1,6 @@
 from . import configs
 from flask import Flask
-import psycopg2
+import os, psycopg2
 
 app = Flask(__name__)
 app.config.from_object(configs.Config)
