@@ -12,7 +12,5 @@ RUN apk update && \
 
 RUN pip3 install -r requirements.txt
 
-RUN sh run.sh 4
-
 EXPOSE 5000
 RUN apk del build-base
